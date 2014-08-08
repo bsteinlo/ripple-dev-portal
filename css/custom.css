@@ -25,6 +25,7 @@ body .content-root {
 .header-subnav-wrapper {
 	background: #f3f6fb;
 	border-bottom: solid 1px #dfe2e7;
+	margin-top: 50px;
 }
 
 .header-subnav {
