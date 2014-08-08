@@ -41,6 +41,11 @@ body .content-root {
 	max-width: 1024px;
 	margin: auto;
 	margin-top: 60px;
+	padding-top: 10px;
+}
+
+.menubar {
+	padding-top: 10px;
 }
 
 .menubar.fixed {
