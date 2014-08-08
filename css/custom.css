@@ -167,3 +167,56 @@ color: #f09 !important;
 
 }
 
+/************
+  footer
+*********** */
+.footer {
+	width: 100%;
+	background-color: #f5f5f5;
+	margin-top:20px;
+	color: #878787;
+}
+
+.container .text-muted {
+	margin: 20px 0;
+}
+
+ul.footer_links {
+	list-style: none;
+	padding: 10px 0 0 0;
+}
+
+ul.footer_links a {
+	color: #878787;
+}
+
+/************
+Mail chimp
+*********** */
+input#mce-EMAIL {
+	height: 34px !important;
+	border: 1px solid #ccc !important;
+}
+
+#mc_embed_signup input.email {
+	width: 38% !important;
+	display: inline-block !important;
+	margin-right: 2% !important;
+}
+
+#mc_embed_signup input.button {
+	display: inline-block !important;
+	height: 34px !important;
+	width: 26% !important;
+	font-weight: 300 !important;
+}
+
+input#mc-embedded-subscribe {
+	background-color: #346AA9 !important;
+	vertical-align: bottom !important;
+}
+
+#mc_embed_signup form {
+	padding: 0 !important;
+}
+
