@@ -1,13 +1,24 @@
 /* Additional Styling */
 
+body {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
 body .content-root {
 	background: none !important;
 	box-shadow: none !important;
 }
 
+.header {
+	background: #346AA9;
+	height: 50px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 .header .left {
 	float: none;
-	max-width: 1024px;
+	max-width: 1170px;
 	margin: auto;
 }
 
@@ -17,7 +28,7 @@ body .content-root {
 }
 
 .header-subnav {
-	max-width: 1024px;
+	max-width: 1170px;
 	margin: auto;
 	border-bottom: none !important;
 }
@@ -87,5 +98,61 @@ color: #f09 !important;
 		padding-left: 50%; 
 	}
 	
+}
+
+/************
+  	nav
+*********** */
+
+.navbar-inverse {
+	background-color: #346AA9;
+	border-color: #346AA9;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #346AA9;
+}
+
+.navbar-collapse {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-brand {
+	padding: 8px 10px 10px 10px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #4a7ab3 !important;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #346AA9;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #4a7ab3;
+}
+
+.right {
+	float: right;
+	margin-top: 15px;
+}
+
+.nav>li {
+	font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+	.right {
+		float: left;
+		margin-top: 0px;
+	}
+
 }
 
