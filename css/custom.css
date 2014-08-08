@@ -40,11 +40,13 @@ body .content-root {
 .content-root {
 	max-width: 1024px;
 	margin: auto;
+	margin-top: 50px;
 }
 
 .menubar.fixed {
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 50px;
 }
 .header-subnav li a:active {
 color: #f09 !important;
