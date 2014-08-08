@@ -32,6 +32,8 @@ body .content-root {
 	max-width: 1170px;
 	margin: auto;
 	border-bottom: none !important;
+	position: fixed !important;
+	width: 100%;
 }
 
 .content-root {
