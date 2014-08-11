@@ -52,7 +52,7 @@ body .content-root {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 162px;
 }
 .header-subnav li a:active {
 color: #f09 !important;
@@ -185,6 +185,7 @@ color: #f09 !important;
 ul.footer_links {
 	list-style: none;
 	padding: 10px 0 0 0;
+	font-size: 14px;
 }
 
 ul.footer_links a {
