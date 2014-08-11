@@ -1,6 +1,6 @@
 /* Additional Styling */
 
-html, body, h1 {
+html, body, h1, td, textarea, input {
 	font-family: 'Open Sans', sans-serif !important;
 }
 
