@@ -222,3 +222,7 @@ input#mc-embedded-subscribe {
 	padding: 0 !important;
 }
 
+.mail_chimp p {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
