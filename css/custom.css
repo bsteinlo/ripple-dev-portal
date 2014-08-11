@@ -1,6 +1,6 @@
 /* Additional Styling */
 
-html, body {
+html, body, h1 {
 	font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -52,6 +52,7 @@ body .content-root {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
+	margin-bottom: 150px;
 }
 .header-subnav li a:active {
 color: #f09 !important;
