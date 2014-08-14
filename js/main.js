@@ -26,12 +26,12 @@ $(function(){
 	});
 
 
- $('.header-subnav li').each(function() {
-    var href = $this).find('a').attr('href');
-    if (href === window.location.pathname) {
-     $(this).addClass('current');
-    }
-  });
+//  $('.header-subnav li').each(function() {
+//     var href = $this).find('a').attr('href');
+//     if (href === window.location.pathname) {
+//      $(this).addClass('current');
+//     }
+//   });
 
 
 });
